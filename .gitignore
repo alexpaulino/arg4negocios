@@ -15,3 +15,12 @@
 /log/*
 !/log/.keep
 /tmp
+
+#Ignore all Cloud9 Stuff
+/.c9
+/.c9/*
+*BACKUP*
+*REMOTE*
+*BASE*
+*LOCAL*
+
