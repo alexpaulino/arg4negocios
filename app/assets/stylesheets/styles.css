@@ -1,0 +1,403 @@
+@import url('http://fonts.googleapis.com/css?family=Quicksand: 300,400,700');
+@import url('http://fonts.googleapis.com/css?family=Lobster');
+
+
+
+html,body {
+	height:100%;
+   
+    color:#444;
+    font-family: 'Quicksand', sans-serif;
+}
+section{
+    width:100% !important;
+    height:auto !important;
+}
+.bgparallax {
+	color:#FFF;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	min-height: 100%;
+	text-shadow:0 0 10px rgba(0,0,0,0.7);
+	background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+.bgparallax2 {
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+    height:auto;
+	background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+.bgparallax section {
+  width: 100%;
+  text-align: center;
+  min-height:100%;
+  margin:0 auto;
+ 
+}
+.bgparallax2 section {
+  width: 100%;
+  text-align: center;
+  min-height:auto;
+  margin:0 auto;
+ 
+}
+
+.bg1{
+    background-image: url('http://demo.rocknrolladesigns.com/wp/jarvis/callouts/wp-content/uploads/2013/08/parallax4.jpg');
+	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+.bg2{
+    background-image: url('http://jorgenovais.com/wp-content/uploads/2013/10/parallax_chalk.jpg');
+	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+.bg3{
+    background-image: url('https://caesarnonsupragrammaticos.files.wordpress.com/2015/02/pawn_mirror_king.jpg');
+	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+.bg4{
+    background-image: url('http://www.blogtogo.de/wp-content/uploads/abstract_multicolor_textures_shapes_geometry_1920x1080_wallpaper_wallpaper_2560x1600_www.wall321.jpg');
+	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+.bg5{
+    background-image: url('http://twoparrot.com/wp-content/uploads/2014/10/black-wood-background-black-137940779.jpg');
+	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+.bg6{
+    background-image: url('https://woodr7.files.wordpress.com/2013/02/45-paper-planes-02.jpg');
+	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+
+::selection { 
+	background: #FFA500; color: #fff;
+}
+::-moz-selection { 
+	background: #FFA500; color: #fff;
+}
+::-o-selection { 
+	background: #FFA500; color: #fff;
+}
+::-webkit-moz-selection { 
+	background: #FFA500; color: #fff;
+}
+
+.animated {
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-ms-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-ms-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-duration: 3s;
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+@media (min-width:768px) {
+    h1 {
+        font-size:68px;
+        
+    }
+}
+
+a {
+    color:#999;
+}
+
+a:hover {
+    color:#111;
+}
+h3{
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+.btn,.well,.panel {
+    border-radius:5px;
+}
+
+.btn-danger {
+    background-color:orange;
+    opacity:0.8;
+    -webkit-transition:all .9s ease;
+	-moz-transition:all .9s ease;
+	-ms-transition:all .9s ease;
+	transition:all .9s ease;
+	border:0;
+}
+.btn-danger:hover {
+    background-color:orange;
+    opacity:1;
+}
+    
+.text-danger, a.text-danger {
+    color:orange;
+}
+
+.btn-huge {
+    padding:17px 22px;
+    font-size:22px;
+}
+
+.lato {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bitter {
+    font-family: 'Lobster', serif;
+}
+
+.icon-bar {
+	background-color:#fff;
+}
+
+.navbar-trans {
+	background-color:#2b2b2b;
+    color:#cdcdcd;
+    border-width:0;
+}
+
+.navbar-trans .navbar-brand, .navbar-trans >.container-fluid .navbar-brand {
+    padding: 14px;
+    color:orange;
+}
+
+.navbar-trans li> a:focus,.navbar-trans li.active {
+	background-color:orange;
+	color:#333;
+	
+}
+
+.navbar-trans li>a:hover {
+	background-color:orange;
+	color:#fff;
+	opacity:0.5;
+	
+}
+
+.navbar-trans a{
+    color:#cdcdcd;
+    letter-spacing:1px;
+}
+
+.navbar-trans .form-control:focus {
+	border-color: #eee;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+}
+
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-left: -15px;
+  display: block;
+  padding: 7px;
+  text-align: center;
+   
+  z-index:1
+}
+
+.scroll-up {
+  position: fixed;
+  display: none;
+  z-index: 999;
+  bottom: 2em;
+  right: 2em;
+}
+
+.scroll-up a {
+  background-color: rgba(135, 135, 135, 0.5);
+  display: block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+section {
+	padding-top:30px;  
+    padding-bottom:50px;
+    min-height:100%;
+    min-height:calc(100% - 0);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+@media (min-width:768px) {
+    .v-center {
+        height: 50%;
+        overflow: visible;
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+       
+    }
+    
+}
+
+.panel-heading{
+    background-color:orange !important;
+}
+blockquote {
+  background: white;
+  border-left: 10px solid orange;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote.blockquote-reverse{
+    background: white;
+  border-right: 10px solid orange;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote.blockquote-reverse:before{
+    color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote.blockquote-reverse, blockquote{
+    text-shadow:none !important; 
+}
+
+
+  
+#section1, #section3 {
+	background-color: rgba(0,0,0,0.7);
+	color:#fff;
+	font-family: 'Lobster', serif;
+}
+#section2 {
+	background-color: transparent;
+}
+
+#section3 {
+	background-color: rgba(0,0,0,0.9);
+	height:auto;
+}
+#section4 {
+	background-color: #f6f6f6;
+	color:#444;
+}
+#section5 {
+	background-color: #fff;
+}
+
+#section6 {
+    background-color: #eee;
+	min-height:130px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+#section7 {
+	background-color: orange;
+	color: #f6f6f6;
+	min-height:130px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+#section8 {
+   height:100%;
+}
+
+footer {
+	background-color:#2b2b2b;
+    color:#ddd;
+    min-height:100px;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+
+footer .nav>li>a {
+    padding: 3px;
+    color: orange;
+}
+
+footer .nav>li>a:hover {
+    background-color:transparent;
+	color:#fff;
+}
